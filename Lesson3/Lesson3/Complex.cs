@@ -59,5 +59,10 @@ namespace Lesson3
         {
             return new Complex(a._Re * b._Re, a._Im * b._Im);
         }
+        public override string ToString()
+        {
+            return $"{_Re} + i{_Im}";
+        }
+
     }
 }
